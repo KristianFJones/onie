@@ -4,7 +4,7 @@
 #
 #  SPDX-License-Identifier:     GPL-2.0
 
-ONIE_REPO="https://github.com/opencomputeproject/onie.git"
+ONIE_REPO="https://github.com/KristianFJones/onie.git"
 DEST_DIR="/home/build/src/onie"
 
 mkdir -p $(dirname $DEST_DIR)

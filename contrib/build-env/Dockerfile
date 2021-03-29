@@ -16,12 +16,12 @@ RUN apt-get update && apt-get install -y \
     libexpat1-dev fakeroot python-sphinx rst2pdf \
     libefivar-dev libnss3-tools libnss3-dev libpopt-dev \
     libssl-dev sbsigntool uuid-runtime uuid-dev cpio \
-    bsdmainutils curl sudo
+    bsdmainutils curl sudo unzip
 
 # Create build user
 RUN useradd -m -s /bin/bash build && \
-        adduser build sudo && \
-        echo "build:build" | chpasswd
+    adduser build sudo && \
+    echo "build:build" | chpasswd
 
 WORKDIR /home/build
 

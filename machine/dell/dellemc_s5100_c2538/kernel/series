@@ -1,1 +1,3 @@
 platform-dellemc-s5100-c2538.patch
+driver-intel-igb.patch
+driver-igb-broadcom-phy.patch
